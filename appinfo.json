@@ -1,0 +1,17 @@
+{
+  "uuid": "acee1481-8e66-4496-817f-df9940a09e11",
+  "shortName": "timezone",
+  "longName": "timezone",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
