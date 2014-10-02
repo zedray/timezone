@@ -1,0 +1,8 @@
+argv = ['/Users/mbrady/pebble-dev/PebbleSDK-2.4.1/Pebble/waf', 'configure', 'build']
+environ = {'SSH_AUTH_SOCK': '/tmp/launch-GywOFu/Listeners', 'PYTHONPATH': '/Users/mbrady/pebble-dev/PebbleSDK-2.4.1/bin/../.env/lib/python2.7/site-packages', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'SHELL': '/bin/zsh', 'LOGNAME': 'mbrady', 'USER': 'mbrady', 'HOME': '/Users/mbrady', 'PATH': '/Users/mbrady/pebble-dev/PebbleSDK-2.4.1/arm-cs-tools/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'TMPDIR': '/var/folders/vl/wfxg07nx1d1glx66lw_rbkq5fgjvnw/T/', 'Apple_PubSub_Socket_Render': '/tmp/launch-E1BcEG/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', '__CF_USER_TEXT_ENCODING': '0x5CF8EEBC:0:0', 'PWD': '/Users/mbrady/workspace_pebble/timezone', '_': '/Users/mbrady/pebble-dev/PebbleSDK-2.4.1/Pebble/waf', '__CHECKFIX1436934': '1'}
+files = ['/Users/mbrady/workspace_pebble/timezone/wscript']
+hash = 4672844372416070989
+options = {'files': '', 'jobs': 8, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'timestamp': None, 'distcheck_args': None, 'top': '', 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/Users/mbrady/workspace_pebble/timezone/build'
+run_dir = '/Users/mbrady/workspace_pebble/timezone'
+top_dir = '/Users/mbrady/workspace_pebble/timezone'
