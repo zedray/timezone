@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C970F0D13740E392ECCF4E /* timezone.c in Sources */ = {isa = PBXBuildFile; fileRef = F276536E44984F958DCF8F3D /* timezone.c */; };
+		33DC4389C8DB413EBC837886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C44F3DA0464DDBB88D6012 /* Foundation.framework */; };
+		688F05AD19DF72940068310B /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 688F05AB19DF72940068310B /* api.c */; };
+		A29AF7262F8D4B4A8787A385 /* watchface.c in Sources */ = {isa = PBXBuildFile; fileRef = DB429D77BF5644B7B73A5C29 /* watchface.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26C44F3DA0464DDBB88D6012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6711F5A486E148CCB2CA235D /* appinfo.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = appinfo.json; sourceTree = "<group>"; };
+		688F05AB19DF72940068310B /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		688F05AC19DF72940068310B /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		7A4A3D892D534953B8B54B2E /* watchface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = watchface.h; sourceTree = "<group>"; };
+		9CB8A95ECBB943CBBFD7BE92 /* resources */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		C9AB88D488984BB2B89CF43D /* fake-iOS-target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-iOS-target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB429D77BF5644B7B73A5C29 /* watchface.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = watchface.c; sourceTree = "<group>"; };
+		F276536E44984F958DCF8F3D /* timezone.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = timezone.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97DD47632E5C45A5AD570BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DC4389C8DB413EBC837886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0518F75675C48A284945D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AB88D488984BB2B89CF43D /* fake-iOS-target.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24667A6D3224FE3AE94EC5C = {
+			isa = PBXGroup;
+			children = (
+				B0518F75675C48A284945D0F /* Products */,
+				C5DDF0581F31435BA22F01DF /* sources */,
+				9CB8A95ECBB943CBBFD7BE92 /* resources */,
+				6711F5A486E148CCB2CA235D /* appinfo.json */,
+			);
+			sourceTree = "<group>";
+		};
+		C5DDF0581F31435BA22F01DF /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				F276536E44984F958DCF8F3D /* timezone.c */,
+				DB429D77BF5644B7B73A5C29 /* watchface.c */,
+				7A4A3D892D534953B8B54B2E /* watchface.h */,
+				688F05AB19DF72940068310B /* api.c */,
+				688F05AC19DF72940068310B /* api.h */,
+			);
+			name = sources;
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A6B08986F37840E395D78254 /* Pebble */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build --pebble_sdk=/Users/mbrady/pebble-dev/PebbleSDK-current";
+			buildConfigurationList = 8C69352AAA8643058C282B5C /* Build configuration list for PBXLegacyTarget "Pebble" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/pebblex;
+			dependencies = (
+			);
+			name = Pebble;
+			passBuildSettingsInEnvironment = 0;
+			productName = Pebble;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D2E7D871B4E4478692D56379 /* fake-iOS-target */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C28407C7B04D9C9384BBD6 /* Build configuration list for PBXNativeTarget "fake-iOS-target" */;
+			buildPhases = (
+				65A13BA1BCC7428A9994DE97 /* Sources */,
+				97DD47632E5C45A5AD570BEB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fake-iOS-target";
+			productName = "fake-iOS-target";
+			productReference = C9AB88D488984BB2B89CF43D /* fake-iOS-target.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C58ACCC29C45E5B8099EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = E25450B9325544CC9C5AC127 /* Build configuration list for PBXProject "timezone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C24667A6D3224FE3AE94EC5C;
+			productRefGroup = B0518F75675C48A284945D0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B08986F37840E395D78254 /* Pebble */,
+				D2E7D871B4E4478692D56379 /* fake-iOS-target */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A13BA1BCC7428A9994DE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688F05AD19DF72940068310B /* api.c in Sources */,
+				03C970F0D13740E392ECCF4E /* timezone.c in Sources */,
+				A29AF7262F8D4B4A8787A385 /* watchface.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10D1ED7113AF49BC82FD7151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mbrady/pebble-dev/PebbleSDK-current/Pebble/include",
+					build,
+				);
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B950EA5DDB8489997426815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mbrady/pebble-dev/PebbleSDK-current/Pebble/include",
+					build,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		3F8155D6858B4CE5850898C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5773797FEC1D46729847DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F94BD9461D24935B986A951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B21E7126A04B4084B6D28068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C28407C7B04D9C9384BBD6 /* Build configuration list for PBXNativeTarget "fake-iOS-target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21E7126A04B4084B6D28068 /* Release */,
+				3F8155D6858B4CE5850898C7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C69352AAA8643058C282B5C /* Build configuration list for PBXLegacyTarget "Pebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5773797FEC1D46729847DAB3 /* Release */,
+				7F94BD9461D24935B986A951 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25450B9325544CC9C5AC127 /* Build configuration list for PBXProject "timezone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B950EA5DDB8489997426815 /* Debug */,
+				10D1ED7113AF49BC82FD7151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37C58ACCC29C45E5B8099EAD /* Project object */;
+}
